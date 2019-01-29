@@ -1,0 +1,33 @@
+
+Gurobi 7.0.2 (win64, C++) logging started 04/27/17 15:01:25
+
+Optimize a model with 4 rows, 18 columns and 8 nonzeros
+Model has 10 general constraints
+Variable types: 0 continuous, 18 integer (18 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 4 rows and 4 columns
+Presolve time: 0.01s
+Presolved: 41 rows, 15 columns, 146 nonzeros
+Presolved model has 1 SOS constraint(s)
+Variable types: 1 continuous, 14 integer (14 binary)
+Found heuristic solution: objective -0.0000000
+
+Root relaxation: objective 2.000000e+00, 11 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       2.0000000    2.00000  0.00%     -    0s
+
+Explored 0 nodes (11 simplex iterations) in 0.03 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 2 -0 
+Pool objective bound 2
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%

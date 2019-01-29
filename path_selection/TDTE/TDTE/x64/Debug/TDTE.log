@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\administrator\desktop\marl-code\getnetwork\tdte\tdte\graphelements.h(115): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\gurobi702\win64\examples\c++\main.cpp(151): warning C4101: “sessionNum”: 未引用的局部变量
+  TDTE.vcxproj -> F:\ICDCS2019\MARL-code\TDTE\x64\Debug\TDTE.exe
+  TDTE.vcxproj -> F:\ICDCS2019\MARL-code\TDTE\x64\Debug\TDTE.pdb (Full PDB)

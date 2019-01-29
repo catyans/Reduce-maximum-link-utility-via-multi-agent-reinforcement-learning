@@ -71,7 +71,7 @@ python3 sim-ddpg.py --epochs=8000 --episodes=100 --stamp_type=3day-train --file_
 and then use the parameters stored to test
 
 ```
-python3 sim-ddpg.py --epochs=39 --episodes=4032 --stamp_type=test-all --file_name=EXP_OBL_3_0_4031 --offline_flag=True --epsilon_begin=0. --is_train=False --ckpt_path=/home/netlab/gengnan/drl_te/ckpoint/3day-train/ckpt
+python3 sim-ddpg.py --epochs=39 --episodes=4032 --stamp_type=test-all --file_name=EXP_OBL_3_0_4031 --offline_flag=True --epsilon_begin=0. --is_train=False --ckpt_path=../log/ckpoint/3day-train/ckpt
 ```
 
 ### 2.3 Notes
